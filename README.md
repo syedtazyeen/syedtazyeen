@@ -1,4 +1,9 @@
-### Hi there 👋
+### Hey, I'm Syed Tazyeen! 👋
+
+## What I'm foucusing on 🖥️
+ - Android Application Development: Retrofit, Firebase.
+
+
 
 <!--
 **syedtazyeen/syedtazyeen** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
