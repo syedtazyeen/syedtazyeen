@@ -9,6 +9,12 @@
 
 
 
+
+Reach Me - 
+✉️ themesyed@gmail.com
+
+
+
 <!--
 **syedtazyeen/syedtazyeen** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
