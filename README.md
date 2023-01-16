@@ -5,6 +5,7 @@
 
 ## What I'm foucusing on 🖥️
  - Android Application Development: Retrofit, Firebase.
+ - Gain Problem Solving Skills
 
 
 
