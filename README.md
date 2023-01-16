@@ -1,7 +1,7 @@
 ### Hey, I'm Syed Tazyeen! 👋
- -- UnderGrad Computer Science student
- - -Learning Skills for Android Development
- - -Working on Personal Projects
+ UnderGrad Computer Science student
+ - Learning Skills for Android Development
+ - Working on Personal Projects
 
 ## What I'm foucusing on 🖥️
  - Android Application Development: Retrofit, Firebase.
