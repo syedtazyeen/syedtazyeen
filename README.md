@@ -5,8 +5,7 @@
 
 ## What I'm foucusing on 🖥️
  - Mobile Application Development:
-   <span style="background-color: #FF5733; color: white; padding: 5px 10px; border-radius: 5px;">Android</span> <span style="background-color: #FF5733; color: white; padding: 5px 10px; border-radius: 5px;">Flutter</span> <span style="background-color: #FF5733; color: white; padding: 5px 10px; border-radius: 5px;">SQLite</span>
-   <span style="background-color: #FF5733; color: white; padding: 5px 10px; border-radius: 5px;">Retrofit</span> <span style="background-color: #FF5733; color: white; padding: 5px 10px; border-radius: 5px;">Retrofit</span> 
+   <p><span style="background-color: #FF5733; color: white; padding: 5px 10px; border-radius: 5px;">Android</span> </p>
  - Gain Problem Solving Skills
 
 
