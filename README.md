@@ -6,7 +6,8 @@
 ## What I'm foucusing on 🖥️
  - Mobile Application Development:
    <br>
-   <img src="https://img.icons8.com/?size=56&id=17836&format=png" alt = "Android"/>
+   <kbd><img src="https://img.icons8.com/?size=56&id=17836&format=png" alt = "Android"/></kbd>
+   <kbd><img src="https://img.icons8.com/?size=56&id=7I3BjCqe9rjG&format=png" alt = "Android"/></kbd>
    <br>
  
    
