@@ -2,7 +2,7 @@
  UnderGrad Computer Science student
  - 🌱Learning Skills for Android Development
  - 💻Working on Personal Projects
- - Reach Me [![LinkedIn](https://logos-world.net/wp-content/uploads/2020/05/Linkedin-Logo.png))](https://www.linkedin.com/in/syedtazyeen/)
+ - Reach Me [![LinkedIn](https://img.icons8.com/?size=512&id=13930&format=png)](https://www.linkedin.com/in/syedtazyeen/)
 
 
 <br>
