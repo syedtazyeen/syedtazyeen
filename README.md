@@ -5,7 +5,7 @@
 
 ## What I'm foucusing on 🖥️
  - Mobile Application Development:
-   <p><span style="background-color: #FF5733; color: white; padding: 5px 10px; border-radius: 5px;">Android</span> </p>
+   <p><span style="background-color: #FF5733; color: white; padding: 5px 10px; border-radius: 8px;">Android</span> </p>
  - Gain Problem Solving Skills
 
 
