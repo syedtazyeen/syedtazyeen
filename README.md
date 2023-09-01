@@ -4,7 +4,9 @@
  - Working on Personal Projects
 
 ## What I'm foucusing on 🖥️
- - Android Application Development: Retrofit, Firebase.
+ - Mobile Application Development:
+   <span style="background-color: #FF5733; color: white; padding: 5px 10px; border-radius: 5px;">Android</span> <span style="background-color: #FF5733; color: white; padding: 5px 10px; border-radius: 5px;">Flutter</span> <span style="background-color: #FF5733; color: white; padding: 5px 10px; border-radius: 5px;">SQLite</span>
+   <span style="background-color: #FF5733; color: white; padding: 5px 10px; border-radius: 5px;">Retrofit</span> <span style="background-color: #FF5733; color: white; padding: 5px 10px; border-radius: 5px;">Retrofit</span> 
  - Gain Problem Solving Skills
 
 
