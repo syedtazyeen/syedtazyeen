@@ -6,7 +6,7 @@
 ## What I'm foucusing on 🖥️
  - Mobile Application Development:
    <br>
-   <img src="https://img.icons8.com/color/48/000000/ubuntu.png" alt = "Ubuntu 20.04 LTS"/>
+   <img src="https://img.icons8.com/?size=512&id=17836&format=png" alt = "Ubuntu 20.04 LTS"/>
    <br>
  
    
