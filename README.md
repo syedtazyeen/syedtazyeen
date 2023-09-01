@@ -19,6 +19,10 @@
  - Problem Solving
 
 
+## Languages I code 💻
+
+<img src="https://img.icons8.com/?size=40&id=Pd2x9GWu9ovX&format=png" alt = "Android"/>
+
 
 
 Reach Me - 
