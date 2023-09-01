@@ -3,7 +3,11 @@
  - Learning Skills for Android Development
  - Working on Personal Projects
 
-![Your Username's GitHub stats](https://github-readme-stats.vercel.app/api?username=syedtazyeen&show_icons=true)
+## Stats 📈
+
+ ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=YourUsername&layout=compact)
+ 
+ ![Your Username's GitHub stats](https://github-readme-stats.vercel.app/api?username=syedtazyeen&show_icons=true)
 
 
 ## What I'm foucusing on 🖥️
