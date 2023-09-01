@@ -12,6 +12,8 @@
  - Problem Solving
    <kbd>Java</kbd>
 
+## Languages I code 💻
+ - <kbd>Java</kbd> <kbd>Dart</kbd> <kbd>Kotlin</kbd> <kbd>C++</kbd> <kbd>C</kbd>
 
 
 
