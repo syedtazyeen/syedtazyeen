@@ -6,7 +6,7 @@
 ## What I'm foucusing on 🖥️
  - Mobile Application Development:
    <br>
-   <kbd>Android</kbd>
+   <kbd>Android</kbd> <kbd>Flutter</kbd> <kbd>Firebase</kbd> <kbd>MongoDb</kbd> <kbd>SQLite</kbd> <kbd>Hive</kbd> 
    <br>
     
  - Problem Solving
