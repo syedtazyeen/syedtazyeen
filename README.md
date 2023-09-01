@@ -5,11 +5,7 @@
 
 ## What I'm foucusing on 🖥️
  - Mobile Application Development:
-   <p><span style="background-color: #FF5733; color: white; padding: 5px 10px; border-radius: 8px;">Android</span> </p>
-   <img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" alt="flutter" width="40" height="40"/> 
-   <div>
-    <span style="background-color: #FF5733; color: white; padding: 5px 10px; border-radius: 5px;">Retrofit</span>
-</div>
+   <kbd style="background-color: #FF5733; color: white; padding: 5px 10px; border-radius: 5px;">Android</kbd> <kbd style="background-color: #FF5733; color: white; padding: 5px 10px; border-radius: 5px;">Flutter</kbd> <kbd style="background-color: #FF5733; color: white; padding: 5px 10px; border-radius: 5px;">Firebase</kbd> <kbd style="background-color: #FF5733; color: white; padding: 5px 10px; border-radius: 5px;">Hive</kbd> <kbd style="background-color: #FF5733; color: white; padding: 5px 10px; border-radius: 5px;">SQLite</kbd>
  - Gain Problem Solving Skills
 
 
