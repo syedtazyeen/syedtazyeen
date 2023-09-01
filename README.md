@@ -5,7 +5,8 @@
 
 ## What I'm foucusing on 🖥️
  - Mobile Application Development:
-   <span style="background-color: #FF5733; color: white; padding: 5px 10px; border-radius: 5px;">Android</span>
+   <br>
+   <kbd style="background-color: #FF5733; color: white; padding: 5px 10px; border-radius: 5px;">Android</kbd>
    <kbd style="background-color: #FF5733; color: white; padding: 5px 10px; border-radius: 5px;">Flutter</kbd>
    <kbd style="background-color: #FF5733; color: white; padding: 5px 10px; border-radius: 5px;">Firebase</kbd>
    <kbd style="background-color: #FF5733; color: white; padding: 5px 10px; border-radius: 5px;">Hive</kbd>
