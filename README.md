@@ -6,7 +6,6 @@
 ## What I'm foucusing on 🖥️
  - Mobile Application Development:
    <br>
-   ___
    <img src="https://img.icons8.com/?size=40&id=17836&format=png" alt = "Android"/>
    <img src="https://img.icons8.com/?size=40&id=7I3BjCqe9rjG&format=png" alt = "Android"/>
    <img src="https://img.icons8.com/?size=40&id=62452&format=png" alt = "Android"/>
@@ -16,7 +15,7 @@
    <br>
  
    
- - Gain Problem Solving Skills
+ - Problem Solving
 
 
 
