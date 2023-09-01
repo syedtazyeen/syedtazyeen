@@ -1,6 +1,6 @@
 ### Hey, I'm Syed Tazyeen! 👋
  UnderGrad Computer Science student
- - 🌱Learning Skills for Android Development
+ - 🌱Learning Skills for Mobile App Development
  - 💻Working on Personal Projects
  - Reach Me [LinkedIn](https://www.linkedin.com/in/syedtazyeen/)
 
