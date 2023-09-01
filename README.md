@@ -12,21 +12,9 @@
    <img src="https://img.icons8.com/?size=40&id=62452&format=png" alt = "Android"/>
    <img src="https://img.icons8.com/?size=40&id=o6OvAxG0nzTH&format=png" alt = "Android"/>
   
-
    <br>
- 
-   
+    
  - Problem Solving
-
-
-## Languages I code 💻
-
-  <img src="https://img.icons8.com/?size=40&id=Pd2x9GWu9ovX&format=png" alt = "Java"/>
-  <img src="https://img.icons8.com/?size=40&id=7AFcZ2zirX6Y&format=png" alt = "Dart"/>
-  <img src="https://img.icons8.com/?size=40&id=ZoxjA0jZDdFZ&format=png" alt = "Kotlin"/>
-  <img src="https://img.icons8.com/?size=40&id=40669&format=png" alt = "C++"/>
-  <img src="https://img.icons8.com/?size=40&id=40670&format=png" alt = "C"/>
-  <img  align = "left" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Kotlin_Icon.svg/512px-Kotlin_Icon.svg.png" alt="Kotlin" width="50" height="50" />
 
 
 
