@@ -6,6 +6,7 @@
 ## Stats 📈
 
 <div align="center" >
+ 
  ![GitHub stats](https://github-readme-streak-stats.herokuapp.com/?user=syedtazyeen)
 
  ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=syedtazyeen&layout=compact)
