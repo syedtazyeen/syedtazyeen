@@ -5,11 +5,15 @@
 
 ## Stats 📈
 
+<div align="center" >
  ![GitHub stats](https://github-readme-streak-stats.herokuapp.com/?user=syedtazyeen)
 
  ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=syedtazyeen&layout=compact)
  
  ![GitHub stats](https://github-readme-stats.vercel.app/api?username=syedtazyeen&show_icons=true)
+</div>
+
+ 
 
 
 ## What I'm foucusing on 🖥️
