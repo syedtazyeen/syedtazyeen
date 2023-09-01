@@ -11,7 +11,7 @@
    <kbd style="background-color: #FF5733; color: white; padding: 5px 10px; border-radius: 5px;">Firebase</kbd>
    <kbd style="background-color: #FF5733; color: white; padding: 5px 10px; border-radius: 5px;">Hive</kbd>
    <kbd style="background-color: #FF5733; color: white; padding: 5px 10px; border-radius: 5px;">SQLite</kbd>
-   <kbd><span style="background-color: #FF5733; color: white; padding: 5px 10px; border-radius: 5px;">Retrofit</span></kbd>
+   <kbd><span style="background-color: #FF5733; color: white; padding: 5px 10px; border-radius: 5px;">`Retrofit`</span></kbd>
    
  - Gain Problem Solving Skills
 
