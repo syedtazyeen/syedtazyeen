@@ -2,6 +2,7 @@
  UnderGrad Computer Science student
  - 🌱Learning Skills for Android Development
  - 💻Working on Personal Projects
+ - Reach Me ✉️ themesyed@gmail.com
 
 <br>
 
@@ -31,11 +32,6 @@
 ## Languages I code 💻
  - <kbd>Java</kbd> <kbd>Dart</kbd> <kbd>Kotlin</kbd> <kbd>C++</kbd> <kbd>C</kbd>
 
-
-
-
-Reach Me - 
-✉️ themesyed@gmail.com
 
 
 
