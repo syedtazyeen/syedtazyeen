@@ -6,6 +6,7 @@
 ## What I'm foucusing on 🖥️
  - Mobile Application Development:
    <p><span style="background-color: #FF5733; color: white; padding: 5px 10px; border-radius: 8px;">Android</span> </p>
+   <img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" alt="flutter" width="40" height="40"/> 
  - Gain Problem Solving Skills
 
 
