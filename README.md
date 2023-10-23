@@ -1,6 +1,6 @@
 ### Hey, I'm Syed Tazyeen! 👋
  UnderGrad Computer Science student
- - 🌱Learning Skills for Mobile App Development
+ - 🌱Learning Skills for Full-Stack Development
  - 💻Working on Personal Projects
  - Reach Me [LinkedIn](https://www.linkedin.com/in/syedtazyeen/)
 
@@ -21,17 +21,10 @@
  
 
 
-## What I'm foucusing on 🖥️
- - Mobile Application Development:
-   <br>
-   <kbd>Android</kbd> <kbd>Flutter</kbd> <kbd>Firebase</kbd> <kbd>MongoDb</kbd> <kbd>SQLite</kbd> <kbd>Hive</kbd> 
-   <br>
-    
- - Problem Solving
-   <kbd>Java</kbd>
+
 
 ## Languages I code 💻
- - <kbd>Java</kbd> <kbd>Dart</kbd> <kbd>Kotlin</kbd> <kbd>C++</kbd> <kbd>C</kbd>
+ - <kbd>Java</kbd> <kbd>JavaScript</kbd> <kbd>TypeScript</kbd> <kbd>C++</kbd> <kbd>C</kbd>
 
 
 
