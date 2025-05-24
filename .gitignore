@@ -1,0 +1,26 @@
+.env*
+.DS_Store
+/node_modules/
+
+# React Router
+.react-router/
+/build/
+
+# Vercel
+/.vercel/
+
+# VSCode
+.vscode/
+
+# Windsurf
+.windsurfrules
+.flaskenv*
+!.env.project
+!.env.vault
+
+# Package manager lock files (ignore all of them)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+bun.lockb
+bun.lock
