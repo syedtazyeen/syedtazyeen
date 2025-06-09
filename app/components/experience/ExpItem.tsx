@@ -1,5 +1,6 @@
 import { ChevronRightIcon } from "lucide-react";
-import { useRef, useState, useLayoutEffect } from "react";
+import { useLayoutEffect, useRef, useState } from "react";
+import fallbackImage from "~/assets/placeholder.jpg";
 import { cn } from "~/lib/utils";
 
 interface ExpItemProps extends React.HTMLAttributes<HTMLDivElement> {
@@ -10,8 +11,6 @@ interface ExpItemProps extends React.HTMLAttributes<HTMLDivElement> {
   location: string;
   logo?: string;
 }
-
-const fallbackImage = "/placeholder.jpg";
 
 export default function ExpItem(
   {

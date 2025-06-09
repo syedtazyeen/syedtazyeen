@@ -69,7 +69,6 @@ function isWork(obj: any): obj is Work {
     isStringArray(obj.title) &&
     isStringArray(obj.description) &&
     isStringArray(obj.tech) &&
-    isStringArray(obj.image) &&
     isStringArray(obj.link) &&
     isStringArray(obj.repository)
   );

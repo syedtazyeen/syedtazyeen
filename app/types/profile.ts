@@ -42,6 +42,7 @@ export type Work = {
   description: [string];
   tech: [string];
   image: [string];
+  video: [string];
   link: [string];
   repository: [string];
 };

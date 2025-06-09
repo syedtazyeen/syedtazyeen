@@ -1,0 +1,115 @@
+{
+    "profile": {
+      "meta": [
+        {
+          "title": ["Tazyeen - Portfolio"],
+          "description": ["Engineer. Builder. Crafter."]
+        }
+      ],
+      "intro": [
+        {
+          "greeting": ["Hi"],
+          "name": ["Tazyeen"],
+          "fullname": ["Syed Tazyeen"],
+          "tagline": ["Engineer. Builder. Crafter."],
+          "imageUrl": ["https://avatars.githubusercontent.com/u/62794854?v=4"]
+        }
+      ],
+      "socials": [
+        {
+          "social": [
+            {
+              "text": ["GitHub"],
+              "href": ["https://github.com/syedtazyeen"]
+            },
+            {
+              "text": ["LinkedIn"],
+              "href": ["https://linkedin.com/in/syedtazyeen"]
+            },
+            {
+              "text": ["Email"],
+              "href": ["mailto:themesyed@gmail.com"]
+            }
+          ]
+        }
+      ],
+      "about": [
+        {
+          "text": ["I'm a full-stack software engineer focused on product development, crafting high performance, user centric experiences across the stack. From scalable frontend interfaces to robust backend systems, I blend design sensibility with engineering precision to build impactful digital products."]
+        }
+      ],
+      "experience": [
+        {
+          "job": [
+            {
+              "company": ["Stealth Startup"],
+              "position": ["Software Engineer"],
+              "location": ["Bengaluru, India"],
+              "period": ["May 2025 - Present"],
+              "description": ["Spearheaded the development and integration of a scalable web platform for a B2B tech SaaS product at a US-based startup, delivering robust solutions that accelerated innovation and business."],
+              "logo": ["https://res.cloudinary.com/duqpspigi/image/upload/v1748079469/stealth_startup_51_logo_xxamd0.jpg"]
+            },
+            {
+              "company": ["Gyangrove"],
+              "position": ["Software Engineer"],
+              "location": ["Bengaluru, India"],
+              "period": ["September 2024 - May 2025"],
+              "description": ["Engineered core modules of a next-generation, AI-driven educational ERP ecosystem, seamlessly integrating features across Next.js and React Native, with robust end-to-end testing to ensure high performance and reliability."],
+              "logo": ["https://res.cloudinary.com/duqpspigi/image/upload/v1748079468/gyangrove_logo_mhvemz.jpg"]
+            },
+            {
+              "company": ["NICPR - ICMR"],
+              "position": ["Trainee"],
+              "location": ["Noida, India"],
+              "period": ["January 2024 - February 2024"],
+              "description": ["Contributed to the design and development of a data visualization and analytics dashboard for vector-borne diseases, incorporating spatial insights to enhance disease tracking and analysis."],
+              "logo": ["https://res.cloudinary.com/duqpspigi/image/upload/v1748079469/english-sentinelassam-import-wp-content-uploads-2020-03-ICMR-1.jpg_caobjz.avif"]
+            }
+          ]
+        }
+      ],
+      "works": [
+        {
+          "work": [
+            {
+                "title": ["Datum"],
+                "description": [""],
+                "tech": [ "TypeScript", "React Router", "Vite", "Tailwind", "PostgreSQL", "Supabase"],
+                "image": ["https://example.com/opensource.png"],
+                "link" : [],
+                "date" : ["July 2024"],
+                "repository": ["https://github.com/syedtazyeen/datum"]
+            },
+            {
+              "title": ["PlayBizz"],
+              "description": ["Streaming platform frontend leveraging TMDB API with robust search and filtering capabilities."],
+              "tech": [ "TypeScript", "React", "Tailwind", "Redux"],
+              "video": ["https://res.cloudinary.com/duqpspigi/video/upload/v1749453160/Screen_Recording_2025-06-09_at_10.38.13_AM_s0zcas.mp4"],
+              "link" : ["https://playbizz.netlify.app/"],
+              "date" : ["April 2024"],
+              "repository": ["https://github.com/syedtazyeen/playbizz"]
+            },
+            {
+                "title": ["Noted AI"],
+                "description": ["Developed an AI-powered note-taking application featuring Notion-style markdown and intelligent AI-driven suggestions to enhance user productivity."],
+                "tech": ["Typescript", "NextJs", "Tailwind", "Gemini"],
+                "image": ["https://example.com/portfolio.png"],
+                "video": ["https://example.com/video.mp4"],
+                "link" : [],
+                "date" : ["March 2025"],
+                "repository": ["https://github.com/syedtazyeen/noted-ai"]
+              },
+            {
+                "title": ["Beams"],
+                "description": ["Developed a reliable live video streaming platform enabling secure OBS sessions through token-based authentication, seamlessly integrated with RESTful backend APIs and powered by Node.js for smooth HLS streaming."],
+                "tech": [ "TypeScript", "React", "Vite", "NestJs", "MongoDB"],
+                "image": ["https://example.com/opensource.png"],
+                "link" : [],
+                "date" : ["July 2024"],
+                "repository": ["https://github.com/syedtazyeen/beams-backend"]
+              }
+          ]
+        }
+      ]
+    }
+  }

@@ -16,7 +16,7 @@ export default function PLink({
           {children}
         </a>
       </span>
-      <span className="absolute left-1/2 -translate-x-1/2 top-full mt-2 w-max max-w-xs px-2 text-xs text-background bg-muted rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none z-10">
+      <span className="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 w-max max-w-xs px-2 text-xs text-background bg-muted rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none z-10">
         {text}
       </span>
     </span>

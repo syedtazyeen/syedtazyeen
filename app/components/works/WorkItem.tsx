@@ -1,5 +1,7 @@
-import { Link } from "react-router";
 import { FolderCode, TvMinimalPlay } from "lucide-react";
+import { useState } from "react";
+import { Link } from "react-router";
+import fallbackImage from "~/assets/placeholder.jpg";
 import { cn } from "~/lib/utils";
 import { Button } from "../ui/button";
 
@@ -9,17 +11,17 @@ interface WorkItemProps extends React.HTMLAttributes<HTMLDivElement> {
   tech: string[];
   date?: string;
   imageUrl?: string;
+  videoUrl?: string;
   link?: string;
   repository?: string;
 }
-
-const fallbackImage = "/placeholder.jpg";
 
 export default function WorkItem(
   {
     title,
     description,
     imageUrl,
+    videoUrl,
     tech,
     date,
     link,
@@ -29,56 +31,75 @@ export default function WorkItem(
   }: WorkItemProps,
   key: number
 ) {
+  const [mediaError, setMediaError] = useState(false);
+
+  const renderMedia = () => {
+    if (videoUrl && !mediaError) {
+      return (
+        <video
+          className="w-full h-48 object-cover rounded-t-xl"
+          src={videoUrl}
+          autoPlay
+          loop
+          muted
+          playsInline
+          onError={() => setMediaError(true)}
+        />
+      );
+    }
+
+    const srcToShow = mediaError || !imageUrl ? fallbackImage : imageUrl;
+
+    return (
+      <img
+        className="w-full h-48 object-cover rounded-t-xl"
+        src={srcToShow}
+        onError={(e) => {
+          if ((e.target as HTMLImageElement).src !== fallbackImage) {
+            (e.target as HTMLImageElement).src = fallbackImage;
+          }
+        }}
+        alt={title}
+      />
+    );
+  };
+
   return (
     <div
       key={key}
       className={cn(
-        "group p-2 flex flex-col md:flex-row gap-4 bg-background rounded-xl cursor-pointer select-none hover:bg-muted/5 transition-colors",
+        "group flex flex-col border border-border rounded-xl min-h-80",
         className
       )}
       {...props}
     >
-      <div className="w-full md:w-40 aspect-video md:aspect-square bg-border rounded-lg overflow-hidden">
-        <img
-          src={imageUrl || fallbackImage}
-          alt={title}
-          onError={(e) => {
-            const target = e.currentTarget;
-            if (target.src !== window.location.origin + fallbackImage) {
-              target.onerror = null;
-              target.src = fallbackImage;
-            }
-          }}
-          className="w-full h-full object-cover"
-        />
+      <div>{renderMedia()}</div>
+      <div className="flex-1 p-4">
+        <h3 className="text-lg font-medium">{title}</h3>
+        <p className="text-sm mt-1 opacity-60">{description}</p>
+        <div className="flex flex-wrap gap-2 mt-4">
+          {tech.map((t) => (
+            <span key={t} className="text-xs bg-muted px-2 py-1 rounded-full">
+              {t}
+            </span>
+          ))}
+        </div>
       </div>
-      <div className="flex-1 gap-4 h-fit">
-        <div className="flex items-center justify-between gap-2">
-          <h3 className="font-medium">{title}</h3>
-          <p className="text-xs font-light text-muted-foreground">{date}</p>
-        </div>
-        <p className="text-sm text-muted-foreground italic font-light">
-          {tech.join(", ")}
-        </p>
-        <p className="pt-2 text-sm text-muted-foreground/60">{description}</p>
-        <div className="flex items-center gap-2 pt-2">
-          {link && (
-            <Link to={link} target="_blank">
-              <Button variant="outline">
-                <TvMinimalPlay className="w-4 h-4 stroke-[1.25]" />
-                <span className="text-xs ml-1">Live</span>
-              </Button>
-            </Link>
-          )}
-          {repository && (
-            <Link to={repository} target="_blank">
-              <Button variant="outline">
-                <FolderCode className="w-4 h-4 stroke-[1.25]" />
-                <span className="text-xs ml-1">Source code</span>
-              </Button>
-            </Link>
-          )}
-        </div>
+      <div className="p-4 mt-4 flex justify-between items-center">
+        {repository && (
+          <Link to={repository}>
+            <Button variant="outline" size="sm">
+              <FolderCode className="mr-1 h-4 w-4" /> Code
+            </Button>
+          </Link>
+        )}
+        {link && (
+          <Link to={link}>
+            <Button variant="outline" size="sm">
+              <TvMinimalPlay className="mr-1 h-4 w-4" /> Demo
+            </Button>
+          </Link>
+        )}
       </div>
     </div>
   );

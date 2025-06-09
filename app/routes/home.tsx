@@ -1,16 +1,15 @@
-import { data, useLoaderData, type LinksFunction } from "react-router";
 import { Github, Hand, Link, Linkedin, Mail } from "lucide-react";
-import PLink from "~/components/common/PLink";
-import ExpItem from "~/components/experience/ExpItem";
-import { formatTo12Hour } from "~/lib/utils";
-import { loadProfileData } from "~/lib/profile";
-import type { ProfileData } from "~/types/profile";
-import ThemeToggle from "~/components/common/ThemeToggle";
-import WorkItem from "~/components/works/WorkItem";
+import { data, useLoaderData } from "react-router";
+import fallbackImage from "~/assets/placeholder.jpg";
 import AvailableChip from "~/components/common/AvailableChip";
+import PLink from "~/components/common/PLink";
+import ThemeToggle from "~/components/common/ThemeToggle";
 import ContactDialog from "~/components/contact/ContactDialog";
-
-const fallbackImage = "/avatar.png";
+import ExpItem from "~/components/experience/ExpItem";
+import WorkItem from "~/components/works/WorkItem";
+import { loadProfileData } from "~/lib/profile";
+import { formatTo12Hour } from "~/lib/utils";
+import type { ProfileData } from "~/types/profile";
 
 export async function loader(): Promise<ProfileData> {
   const data = await loadProfileData();
@@ -50,6 +49,8 @@ export function meta({ data }: { data: ProfileData }) {
   ];
 }
 
+const ENABLE_MESSAGE = import.meta.env.ENABLE_MESSAGE ?? false;
+
 export default function Home() {
   const data = useLoaderData<typeof loader>();
   const intro = data.intro[0];
@@ -72,6 +73,8 @@ export default function Home() {
     tech: w.tech,
     date: w.date?.[0],
     link: w.link[0],
+    imageUrl: w.image?.[0],
+    videoUrl: w.video?.[0],
     repository: w.repository[0],
   }));
 
@@ -137,10 +140,14 @@ export default function Home() {
               </PLink>
             );
           })}
-          <span className="text-muted-foreground/80 font-light text-xs">
-            or
-          </span>
-          <ContactDialog />
+          {ENABLE_MESSAGE && (
+            <>
+              <span className="text-muted-foreground/80 font-light text-xs">
+                or
+              </span>
+              <ContactDialog />
+            </>
+          )}
         </div>
 
         <div className="mt-12">
@@ -161,12 +168,12 @@ export default function Home() {
 
         <div className="mt-20">
           <p className="text-2xl font-semibold tracking-wider">Works.</p>
-          <div className="space-y-4 mt-4">
+          <div className="mt-4 grid grid-cols-1 md:grid-cols-2 gap-4">
             {works.map((work, index) => WorkItem(work, index))}
           </div>
         </div>
 
-        <div className="mt-40 h-10 md:h-22 overflow-hidden">
+        <div className="mt-40 h-10 md:h-22 overflow-hidden opacity-15">
           <h1 className="text-5xl md:text-8xl font-extrabold text-center whitespace-nowrap">
             <span className="text-muted-foreground text-base align-top">©</span>
             {intro.fullname[0]}
